@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
 const adminRoutes = require('./Routes/Admin/index.routes');
 app.use('/api/admin', adminRoutes);
 
-const userRoutes = require('./Routes/user/index.routes');
+const userRoutes = require('./Routes/User/index.routes');
 app.use('/api/user', userRoutes);
 
 
