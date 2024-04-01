@@ -5,7 +5,6 @@ const cartRotes = require('./cart.routes')
 const favoriteRoute = require('./favorite.routes');
 const orderRoutes = require('./order.routes');
 
-
 usersRoute.use('/user', userRoute);
 usersRoute.use('/product', productRoute);
 usersRoute.use('/cart', cartRotes);

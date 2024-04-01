@@ -2,7 +2,6 @@ const express = require('express');
 const orderRoute = express.Router();
 const {userVerifyToken} = require('../../Helpers/userVerifyToken');
 
-
 const {
     addNewOrder,
     getAllOrders,
@@ -22,4 +21,4 @@ orderRoute.get('/get-Order', userVerifyToken, getOrder);
 // DELETE ORDER
 orderRoute.delete('/delete-Order', userVerifyToken, deleteOrder);
 
-module.exports = orderRoute;
+module.exports = orderRoute;aa1

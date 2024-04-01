@@ -6,7 +6,6 @@ app.use(express.json());
 const path = require('path');
 const imagePath = path.join(__dirname,'image');
 app.use('/image',express.static(imagePath));
-
 const mongoose = require('mongoose');
 
 const adminRoutes = require('./Routes/Admin/index.routes');
