@@ -14,7 +14,7 @@ const {
 
 
 // REGISTER USER
-userRoute.post('/register-user', upload.single('profileImage'),registerUser);
+userRoute.get('/register-user', upload.single('profileImage'),registerUser);
 
 // LOGIN USER
 userRoute.post('/login-user',loginUser);
